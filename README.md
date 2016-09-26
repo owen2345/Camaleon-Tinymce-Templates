@@ -11,6 +11,9 @@ Note: Don't forget "mceTmpl" class name.
 
 ##Installation
 * Add to your Gemfile
+```
+gem 'cama_tinymce_template', github: 'owen2345/Camaleon-Tinymce-Templates'
+```
 * Bundle install
 * Restart server
 * Go to admin -> plugins -> inactive plugins -> install plugin
