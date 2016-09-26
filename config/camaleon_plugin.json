@@ -1,0 +1,18 @@
+{
+  "title": "Cama Tinymce Templates",
+  "descr": "Permit to manage tinymce templates with better visualization.",
+  "key": "cama_tinymce_template", // must be the name of the folder of your plugin, sample: app/views/plugins/<my_plugin> ==> 'my_plugin'
+  "helpers": [
+    "Plugins::CamaTinymceTemplate::MainHelper"
+  ],
+  "hooks": {
+    "on_active": [
+      "cama_tinymce_template_on_active"
+    ],
+    "on_inactive": [
+      "cama_tinymce_template_on_inactive"
+    ],
+    "admin_before_load": ["cama_tinymce_admin_before_load"]
+    //here you can add all your hooks (read documentation)
+  }
+}
