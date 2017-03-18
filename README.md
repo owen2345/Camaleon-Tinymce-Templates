@@ -19,7 +19,7 @@ gem 'cama_tinymce_template', github: 'owen2345/Camaleon-Tinymce-Templates'
     - Create the helper listener for the hook which will append a new javascript with our templates
     ```
     def my_theme_admin_before_load
-        append_asset_libraries({"my_tinymce"=> { js: [theme_asset("my_tinymce_templates")]}})
+        append_asset_libraries({"my_tinymce"=> { js: [theme_asset("js/my_tinymce_templates")]}})
     end
     ```
     - Create the js file 'my_theme/assets/js/my_tinymce_templates.js'
